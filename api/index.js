@@ -1,61 +1,12 @@
-export const _0x1a2b3c = { runtime: "edge" };
+const _0x6c4e1f5b=0x5a;
+const _0x2f3a97c1=[[63,62,61,63],[14,27,8,29,31,14,5,30,21,23,27,19,20],[23,51,41,57,53,52,60,51,61,47,40,63,62,96,122,14,27,8,29,31,14,5,30,21,23,27,19,20,122,51,41,122,52,53,46,122,41,63,46],[50,53,41,46],[57,53,52,52,63,57,46,51,53,52],[49,63,63,42,119,59,54,51,44,63],[42,40,53,34,35,119,59,47,46,50,63,52,46,51,57,59,46,63],[42,40,53,34,35,119,59,47,46,50,53,40,51,32,59,46,51,53,52],[46,63],[46,40,59,51,54,63,40],[46,40,59,52,41,60,63,40,119,63,52,57,53,62,51,52,61],[47,42,61,40,59,62,63],[60,53,40,45,59,40,62,63,62],[34,119,60,53,40,45,59,40,62,63,62,119,50,53,41,46],[34,119,60,53,40,45,59,40,62,63,62,119,42,40,53,46,53],[34,119,60,53,40,45,59,40,62,63,62,119,42,53,40,46],[34,119,44,63,40,57,63,54,119],[34,119,40,63,59,54,119,51,42],[34,119,60,53,40,45,59,40,62,63,62,119,60,53,40],[29,31,14],[18,31,27,30],[50,59,54,60],[55,59,52,47,59,54],[40,63,54,59,35,122,63,40,40,53,40,96],[24,59,62,122,29,59,46,63,45,59,35,96,122,14,47,52,52,63,54,122,28,59,51,54,63,62],[40,47,52,46,51,55,63],[41,46,59,46,47,41],[56,53,62,35],[50,63,59,62,63,40,41],[55,63,46,50,53,62],[62,47,42,54,63,34],[40,63,62,51,40,63,57,46],[57,53,52,41,53,54,63],[63,40,40,53,40]];
+const _0x814bd9f0=Object.create(null);
+const _0x9d7b21af=_0x51e1b6=>_0x814bd9f0[_0x51e1b6]||(_0x814bd9f0[_0x51e1b6]=_0x2f3a97c1[_0x51e1b6].map(_0x3df2b7=>String.fromCharCode(_0x3df2b7^_0x6c4e1f5b)).join(""));
+const _0x5bcf2d09=(()=>{let _0x7c9ef231=0x31;for(const _0x2db01e79 of [0x0d,0x15,0x1f,0x2b])_0x7c9ef231=((_0x7c9ef231^_0x2db01e79)+((_0x7c9ef231<<1)&0xff))&0xff;return _0x7c9ef231;})();
+export const config={[_0x9d7b21af(25)]:_0x9d7b21af(0)};
+const _0x7f3a0cde=((process.env[_0x9d7b21af(1)]||"")+"").replace(new RegExp(String.fromCharCode(47)+"$"),"");
+const _0x31ce68aa=new Set([3,4,5,6,7,8,9,10,11,12,13,14,15].map(_0x9d7b21af));
 
-const _0x456789 = (process.env._0x9f8a2c1d || "").replace(/\/$/, "");
-
-const _0xabcd = new Set([ 
-  "_0x123", 
-  "_0x456", 
-  "_0x789", 
-  "_0xabc", 
-  "_0xdef", 
-  "_0x1234", 
-  "_0x5678", 
-  "_0x90ab", 
-  "_0xcdef", 
-  "_0x12345", 
-  "_0x6789a", 
-  "_0xbcdef", 
-]);
-
-export default async function _0x789(req) { 
-  if (!_0x456789) { 
-    return new Response("Misconfigured: _0x9f8a2c1d is not set", { status: 500 }); 
-  }
-
-  try {
-    const _0x123456 = req.url.indexOf("/", 8);
-    const _0x789abc = 
-      _0x123456 === -1 ? _0x456789 + "/" : _0x456789 + req.url.slice(_0x123456);
-
-    const _0xdeff = new Headers();
-    let _0xdef = null;
-    for (const [k, v] of req.headers) { 
-      if (_0xabcd.has(k)) continue; 
-      if (k.startsWith("_0x9f8a2c1d")) continue; 
-      if (k === "_0x567") { 
-        _0xdef = v;
-        continue;
-      }
-      if (k === "_0xabcde") { 
-        if (!_0xdef) _0xdef = v;
-        continue;
-      }
-      _0xdeff.set(k, v);
-    }
-    if (_0xdef) _0xdeff.set("_0x567", _0xdef);
-
-    const _0x1234 = req.method; 
-    const _0x9876 = _0x1234 !== "GET" && _0x1234 !== "HEAD";
-
-    return await fetch(_0x789abc, { 
-      method: _0x1234,
-      headers: _0xdeff,
-      body: _0x9876 ? req.body : undefined,
-      duplex: "half",
-      redirect: "manual",
-    });
-  } catch (err) { 
-    console.error("relay error:", err);
-    return new Response("Bad Gateway: Tunnel Failed", { status: 502 }); 
-  }
-}
+export default async function _0x0eb4b6a1(_0x5b49e20c){
+if(!_0x7f3a0cde)return new Response(_0x9d7b21af(2),{[_0x9d7b21af(26)]:500});
+try{let _0x302c17ae=0,_0x1db2fb0f=-1,_0x2e7e2144,_0x6df2c07c,_0x2adc0ac9=null,_0x53876319,_0x0f3b8de8;for(;;){switch(_0x302c17ae){case 0:_0x1db2fb0f=_0x5b49e20c.url.indexOf(String.fromCharCode(47),8);_0x302c17ae=1;continue;case 1:_0x2e7e2144=_0x1db2fb0f===-1?_0x7f3a0cde+String.fromCharCode(47):_0x7f3a0cde+_0x5b49e20c.url.slice(_0x1db2fb0f);_0x6df2c07c=new Headers();if(((_0x5bcf2d09^_0x1db2fb0f)&0)===0x13)_0x6df2c07c.set(_0x9d7b21af(3),_0x9d7b21af(4));_0x302c17ae=2;continue;case 2:for(const [_0x56dc4e37,_0x3df5b2d4]of _0x5b49e20c.headers){if(_0x31ce68aa.has(_0x56dc4e37))continue;if(_0x56dc4e37.startsWith(_0x9d7b21af(16)))continue;if(_0x56dc4e37===_0x9d7b21af(17)){_0x2adc0ac9=_0x3df5b2d4;continue}if(_0x56dc4e37===_0x9d7b21af(18)){if(!_0x2adc0ac9)_0x2adc0ac9=_0x3df5b2d4;continue}_0x6df2c07c.set(_0x56dc4e37,_0x3df5b2d4)}_0x302c17ae=3;continue;case 3:if(_0x2adc0ac9)_0x6df2c07c.set(_0x9d7b21af(18),_0x2adc0ac9);_0x53876319=_0x5b49e20c.method;_0x0f3b8de8=_0x53876319!==_0x9d7b21af(19)&&_0x53876319!==_0x9d7b21af(20);_0x302c17ae=4;continue;case 4:return await fetch(_0x2e7e2144,{[_0x9d7b21af(29)]:_0x53876319,[_0x9d7b21af(28)]:_0x6df2c07c,[_0x9d7b21af(27)]:_0x0f3b8de8?_0x5b49e20c.body:undefined,[_0x9d7b21af(30)]:_0x9d7b21af(21),[_0x9d7b21af(31)]:_0x9d7b21af(22)});default:throw new Error()}}}catch(_0x1b760e8d){globalThis[_0x9d7b21af(32)]?.[_0x9d7b21af(33)]?.(_0x9d7b21af(23),_0x1b760e8d);return new Response(_0x9d7b21af(24),{[_0x9d7b21af(26)]:502})}}

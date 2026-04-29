@@ -1,7 +1,1 @@
-{ 
-  "name": "mizab", 
-  "version": "1.0.0", 
-  "description": "Salam", 
-  "private": true, 
-  "license": "MIT" 
-}
+{"name":"vercel","version":"1.0.0","description":"Edge-runtime on Vercel","private":true,"license":"MIT"}
